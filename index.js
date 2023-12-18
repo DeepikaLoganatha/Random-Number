@@ -7,7 +7,7 @@ var totalscore=10
 function verify()
 {
     var enterednumber = guessnumber.value
-    if(randomnumber==guessnumber)
+    if(randomnumber == enterednumber)
     {
         console.log("Right")
         result.textContent="Right"
